@@ -1,4 +1,4 @@
-var playlist = { "Kehlani:" "Distraction", Mac_Ayres: "Easy"}
+var playlist = { "Kehlani": "Distraction", "Mac_Ayres": "Easy"}
 
 function updatePlaylist(playlist, artistName, songTitle){
   playlist.Ella_Mai = "Anymore"
