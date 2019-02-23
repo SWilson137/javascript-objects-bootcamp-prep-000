@@ -1,11 +1,11 @@
 var playlist = { Kehlani: "Distraction", Mac_Ayres: "Easy"}
 
 function updatePlaylist(playlist, artistName, songTitle){
-  playlist.Ella_Mai = "Anymore"
+  playlist.artistName = songTitle
   return playlist
 }
 
 function removeFromPlaylist(playlist, artistName){
-  delete playlist.Mac_Ayres
+  delete playlist.artistName
   return playlist
 }
